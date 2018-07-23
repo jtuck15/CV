@@ -1,0 +1,218 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #868686;
+}
+
+
+/*---------Fonts---------*/
+
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Varela Round', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+}
+
+
+/*---------Special Paddings/Margins/Text---------*/
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+
+.section-heading {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*---------Headings---------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+    
+}
+
+.logo {
+    background: url("jtuck.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+/*---------Colors---------*/
+
+.bg-color-name-title {
+    /*background-color: #000000;*/
+    color: white;
+    background: rgb(149,149,149); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.ui-menu-color-home {
+    background-color: #000000;
+}
+
+.ui-menu-color-resume {
+    background-color: #000000;
+}
+
+.ui-menu-color-contact {
+    background-color: #000000;
+}
+
+.ui-menu-color-download {
+    background-color: #000000;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+
+/*---------Navigation---------*/
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+
+/*---------Hover---------*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(255, 255, 255, 0.2);
+    height: 120px;
+}
+
+/*---------Footer---------*/
+
+footer {
+    background-color: #000000;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+/*Can style these icons using correct color for each icon e.g. linkedin blue*/
+.social-links li a i { 
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #868686;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #2261c1;
+}
+
+#footer-details {
+    margin: 20px;
+}
