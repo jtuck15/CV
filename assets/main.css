@@ -37,13 +37,6 @@ h1, h2, h3, h4 {
     display: table;
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}
-
-
 .section-heading {
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
@@ -122,6 +115,10 @@ header {
     background-color: #fff;
 }
 
+.bgcolor-personal-info {
+    background: #868686;
+}
+
 
 /*---------Navigation---------*/
 
@@ -151,6 +148,7 @@ header {
     display: block;
     color: #fafafa;
     font-size: 26px;
+    margin-top: 10px;
 }
 
 .menuitem span {
@@ -215,4 +213,87 @@ footer .cv-pdf i {
 
 #footer-details {
     margin: 20px;
+}
+
+/*---------Three Reasons---------*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #2261c1;
+    margin-top: 5px;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px
+}
+
+/*---------Personal Info---------*/
+
+.personal-info-item {
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value :{
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 800;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    margin-top: 2px;
+}
+
+
+/*---------Skills---------*/
+
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+
+/*---------Media Queries---------*/
+
+@media (min-width: 992px) {
+   .section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+} 
 }
