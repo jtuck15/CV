@@ -116,7 +116,11 @@ header {
 }
 
 .bgcolor-personal-info {
-    background: #868686;
+    background: #cccccc;
+}
+
+.bgcolor-working-history {
+    background: #cccccc;
 }
 
 
@@ -287,6 +291,50 @@ footer .cv-pdf i {
     margin: 40px 20px;
 }
 
+
+/*---------Work History---------*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #000;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: "";
+    background: #000;
+}
+
+
+.history-items {
+    margin-bottom: 30px;
+}
 
 /*---------Media Queries---------*/
 
