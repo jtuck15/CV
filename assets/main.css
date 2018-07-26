@@ -95,6 +95,23 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+.bgcolor-personal-info {
+    background: #cccccc;
+}
+
+.bgcolor-working-history {
+    background: #cccccc;
+}
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #000000;
 }
@@ -109,18 +126,6 @@ header {
 
 .ui-menu-color-download {
     background-color: #000000;
-}
-
-.bg-color-three-reasons {
-    background-color: #fff;
-}
-
-.bgcolor-personal-info {
-    background: #cccccc;
-}
-
-.bgcolor-working-history {
-    background: #cccccc;
 }
 
 
@@ -336,6 +341,31 @@ footer .cv-pdf i {
     margin-bottom: 30px;
 }
 
+/*---------Contact---------*/
+
+
+.contact-heading {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+
+
 /*---------Media Queries---------*/
 
 @media (min-width: 992px) {
@@ -344,4 +374,10 @@ footer .cv-pdf i {
     float: none;
     display: table-cell;
 } 
+    .center-form {
+    padding-top: 10px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
 }
