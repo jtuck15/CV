@@ -1,26 +1,18 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# **Online CV**
 
+## *This is a quick mockup CV*
 
-Hi there! Welcome to Cloud9 IDE!
+> I have built this website using the following:
+> - HTML
+> - CSS
+> - Bootstrap
 
-To get you started, we included a small hello world application.
+This website has a mobile first approach as nearly everyone uses their mobile phones to access the internet nowadays.
 
-1) Open the hello-world.html file
+> *It includes:*
+> 1. A Home page with my personal info and an about me section.
+> 2. A Resume page with a work history and skills section.
+> 3. A Contact page where you can submit a project request to me.
+> 4. A Download button in which you can download a pdf version of my CV.
 
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+I will be updating this website again with all of my necessary details and as my skills progress, I will be adding JavaScript functionality.
